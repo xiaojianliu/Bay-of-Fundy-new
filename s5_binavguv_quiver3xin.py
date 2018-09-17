@@ -10,43 +10,14 @@ Created on Fri Oct 12 15:27:09 2012
 import numpy as np
 from SeaHorseLib import *
 from datetime import *
-from scipy import interpolate
-import sys
 from SeaHorseTide import *
-#from pydap.client import open_url
 import matplotlib.pyplot as plt
-#from SeaHorseLib import *
-from datetime import *
-from scipy import interpolate
-import sys
-#from SeaHorseTide import *
-import numpy as np
-#from pydap.client import open_url
-import matplotlib.pyplot as plt
-
-from datetime import *
-#from scipy import interpolate
-import sys
 from matplotlib.path import Path
 from netCDF4 import Dataset
-import shutil
-import matplotlib.mlab as mlab
-import matplotlib.cm as cm
 import os
-from math import sqrt,radians,sin,cos,atan
-
+from math import sqrt
 from datetime import datetime, timedelta
-import numpy as np
-#from pydap.client import open_url
-import matplotlib.pyplot as plt
-#from SeaHorseLib import *
-#from datetime import *
-#from scipy import interpolate
-#import sys
-#from SeaHorseTide import *
-#import shutil
-import matplotlib.mlab as mlab
-import matplotlib.cm as cm
+
 def sh_bindata(x, y, z, xbins, ybins):
     """
     Bin irregularly spaced data on a rectangular grid.
