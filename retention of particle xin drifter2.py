@@ -5,30 +5,11 @@ Created on Tue Mar  7 09:13:45 2017
 @author: bling
 """
 from mpl_toolkits.basemap import Basemap  
-import sys
-import datetime as dt
 from matplotlib.path import Path
-import netCDF4
-from dateutil.parser import parse
 import numpy as np
 import matplotlib.pyplot as plt
-import math
-import pandas as pd
-from datetime import datetime, timedelta
 from math import radians, cos, sin, atan, sqrt  
-import numpy as np
-import sys
-import datetime as dt
-from matplotlib.path import Path
-import netCDF4
-from dateutil.parser import parse
-import numpy as np
-import matplotlib.pyplot as plt
-import math
-import pandas as pd
-from datetime import datetime, timedelta
-from math import radians, cos, sin, atan, sqrt  
-from matplotlib.dates import date2num,num2date
+
 def haversine(lon1, lat1, lon2, lat2): 
     """ 
     Calculate the great circle distance between two points  
