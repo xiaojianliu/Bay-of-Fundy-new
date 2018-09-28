@@ -14,4 +14,5 @@
 
 # 7. run s5_binavguv_quiver.py to get Fig.4
 
-
+Note: Due to some files too large to upload to GitHub
+The data in driftfvcom_data51 is the ROMS model data at the same time and position as the drifter.
